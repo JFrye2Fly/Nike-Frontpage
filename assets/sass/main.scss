@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "reset";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  font-family: "EB Garamond", serif;
+  height: 100%;
+  background: #f7f7f7;
+  // background: purple;
+
+  .shipping {
+    background: #f7f7f7;
+    border-top: 0.2px solid rgba(0, 0, 0, 0.7);
+  }
+
+  .athlete {
+    margin-bottom: 3rem;
+    .row {
+      .athlete-img {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfeAbrvvNaDNuQ7RWX6h2gY8oWqgSjuNLmEVP_XW8y4i5T0Fi9gQ");
+        height: 50vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .athlete-img-text {
+          position: absolute;
+          bottom: 13%;
+          left: 5%;
+
+          h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.1rem;
+          }
+          p {
+            font-size: 2rem;
+          }
+          h3 {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .shoes {
+    margin-bottom: 3rem;
+    .row {
+      .nike-shoes-img {
+        background-image: url("/img/nike-shoes.png");
+        height: 70vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        .nike-shoes-img-text {
+          position: absolute;
+          background: rgba(255, 255, 255, 0.8);
+          border-radius: 5px;
+          top: 10%;
+          left: 3%;
+
+          h1 {
+          }
+          p {
+            margin-bottom: 0.8rem;
+            text-decoration: underline;
+          }
+          button {
+          }
+        }
+      }
+    }
+  }
+
+  .picks-of-week-header{
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .picks-of-week {
+  height: auto;
+  margin-bottom: 4rem;
+    .row {
+      .picks-of-week-inner {
+        // background: rgba(207, 207, 207, 1);
+        .grey-background {
+          height: 100%;
+          width: 100%;
+            .img {
+              width: 100%;
+              height: 100%;
+            }
+      }
+      .shoe-info {
+        h2{
+          font-size: 12px;
+        }
+        p{
+          color: #A7A7A7;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+.winterwear-cnt{
+  margin-top: 5rem;
+  .row{
+    .winter-img{
+      width: 100vw;
+      background-image: url("/img/nike-10.png");
+      height: 70vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      .winter-cont-text{
+        margin-top: 3rem;
+        margin-left: 5rem;
+        P{
+          color: white;
+          margin-bottom: 10px;
+          font-weight: 600;
+          font-size: 2rem;
+        }
+        h2{
+          color: white;
+          margin-bottom: 10px;
+          letter-spacing: 1px;
+        }
+        button{
+          margin-top: 10px;
+          background: black;
+          color: lightgrey;
+          font-weight: 700;
+          letter-spacing: -.2px;
+
+        }
+      }
+    }
+  }
+}
+.winter-essentials-title{
+  margin-top: 4rem;
+  .row{
+    .col-sm-4{
+      p{
+        font-weight: 800;
+        letter-spacing: -.3px;
+      }
+    }
+  }
+}
+.winter-essentials{
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  .row{
+    .winter-pics{
+      height: 100%;
+      width: 100%;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+      h2{
+
+      }
+      p{
+        color: #A7A7A7;
+      }
+    }
+  }
+}
+.kids-container{
+  margin-bottom: 3rem;
+  .row{
+    .kids{
+      background-image: url("/img/nike-15.png");
+      height: 70vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      .kids-text{
+        position: absolute;
+        top: 40%;
+
+        h2{
+          color: white;
+        }
+        h3{
+          color: white;
+          width: 60%;
+          margin-bottom: 1rem;
+          font-weight: 550;
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .vapormax{
+      background-image: url("/img/nike-16.png");
+      height: 70vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      .vapormax-text{
+        position: absolute;
+        top: 40%;
+        h2{
+          color: white;
+        }
+        h3{
+          margin-bottom: 1rem;
+          color: white;
+          font-weight: 550;
+          font-size: 1.2rem;
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+.shoe-list-container{
+  margin-bottom: 4rem;
+  .row{
+    .col-sm-3{
+      text-align: center;
+      position: relative;
+
+      .h3{
+        font-size: 20px;
+        letter-spacing: -.4px;
+        font-weight: 620;
+      }
+      ul{
+        li{
+          margin-bottom: 5px;
+        }
+      }
+      .plus-icon{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .bottom-border{
+        position: absolute;
+        bottom: 0;
+        background: rgba(189, 195, 199, .5);
+        width: 80%;
+        height: 7px;
+      }
+    }
+  }
+}
+.footer{
+  background: black;
+  height: 500px;
+  position: relative;
+  .row{
+    .col-sm-9{
+      .find-a-store{
+        font-size: 14px;
+        letter-spacing: -.9px;
+        h1{
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+        }
+        ul{
+          li{
+            margin-bottom: .4rem;
+          }
+        }
+      }
+      .get-help{
+        h1{
+          color: white;
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+        }
+        ul{
+          li{
+            color: grey;
+            margin-bottom: .4rem;
+          }
+        }
+      }
+      .career{
+        h1{
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+        }
+        ul{
+          li{
+            color: grey;
+          }
+        }
+      }
+    }
+    .icons{
+      height: 100%;
+      width: 100%;
+      margin-top: 3rem;
+      transition: all .3s ease-in-out;
+      .fa{
+
+        &:hover{
+          color: pink;
+          background: blue;
+        }
+      }
+    }
+    .footer-img{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      height: 100%;
+      width: 100%;
+      img{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .copyright{
+    position: absolute;
+    bottom: 5;
+    left: 40%;
+  }
+}
+}
